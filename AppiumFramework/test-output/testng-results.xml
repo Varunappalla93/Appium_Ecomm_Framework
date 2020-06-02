@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102794" started-at="2020-06-01T15:23:20Z" finished-at="2020-06-01T15:25:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="102794" started-at="2020-06-01T15:23:20Z" finished-at="2020-06-01T15:25:03Z">
+      <class name="com.AppiumFramework.EcomTC_4">
+        <test-method status="PASS" signature="killnodes()[pri:0, instance:com.AppiumFramework.EcomTC_4@7b49cea0]" name="killnodes" is-config="true" duration-ms="16" started-at="2020-06-01T15:23:20Z" finished-at="2020-06-01T15:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killnodes -->
+        <test-method status="PASS" signature="twoproductsval()[pri:0, instance:com.AppiumFramework.EcomTC_4@7b49cea0]" name="twoproductsval" duration-ms="39486" started-at="2020-06-01T15:24:24Z" finished-at="2020-06-01T15:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoproductsval -->
+      </class> <!-- com.AppiumFramework.EcomTC_4 -->
+      <class name="com.AppiumFramework.APIDemotest">
+        <test-method status="PASS" signature="APIdemo(java.lang.String)[pri:0, instance:com.AppiumFramework.APIDemotest@887af79]" name="APIdemo" duration-ms="31447" started-at="2020-06-01T15:23:20Z" data-provider="InputData" finished-at="2020-06-01T15:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIdemo -->
+        <test-method status="PASS" signature="APIdemo(java.lang.String)[pri:0, instance:com.AppiumFramework.APIDemotest@887af79]" name="APIdemo" duration-ms="31797" started-at="2020-06-01T15:23:52Z" data-provider="InputData" finished-at="2020-06-01T15:24:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[^%$^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIdemo -->
+      </class> <!-- com.AppiumFramework.APIDemotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
